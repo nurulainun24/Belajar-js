@@ -1,4 +1,4 @@
-var nilai = 10;
+var nilai = -5;
 
 if ( nilai >= 90 ) {
     console.log("A")
@@ -19,3 +19,11 @@ if ( nilai >= 90 ) {
 // 80 - 85 C
 // 70 - 80 D
 // < 70 E
+
+var harga = 4000;
+
+if ( harga == 2000  || 3000 == harga ) {
+    console.log ("beli 3 ikat");
+}else {
+    console.log ("beli 2 ikat");
+}
